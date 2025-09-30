@@ -3,18 +3,49 @@ body {
 }
 
 .image {
-    display: flex;
     border-radius: .5rem;
 }
 
 #Acceuil li{
     display: inline-flex;
-    justify-content: center;
     background-color: rgb(255, 0, 72);
     border-radius: .5rem;
 }
 
-.block {
-    display: inline-flex;
-    justify-content: center;
+.block { display: flex; }
+.item:nth-child(2) {
+    flex: 1 1 auto;
 }
+
+#title {
+    display: flex;
+    justify-content:center;
+}
+
+.date {
+    display: flex;
+    justify-content:center;
+    font-size: x-large;
+    margin-top: 25px;
+}
+
+.para {
+    margin-left: 80px;
+    font-size: large;
+}
+
+#imalbum {
+    display: flex;
+    justify-content: space-around;
+}
+
+#album {
+    display: flex;
+    justify-content: space-around;
+}
+
+.music {
+    display: flex;
+    justify-content: space-around;
+}
+

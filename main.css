@@ -29,8 +29,17 @@ body {
     margin-top: 25px;
 }
 
+
+.text {
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+
+
 .para {
     margin-left: 80px;
+    width: calc(90% - 30px);
     font-size: large;
 }
 
@@ -49,3 +58,22 @@ body {
     justify-content: space-around;
 }
 
+
+.titres {
+    width: 300px;
+}
+
+.itemu {
+    width: 300px;
+    font-size: large;
+}
+
+li:nth-child(2n) {
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+li:nth-child(2n+1) {
+    background-color: aqua;
+    border-radius: 5px;
+}

@@ -3,13 +3,19 @@ body {
 }
 
 .image {
-    border-radius: .5rem;
+    display: block;
+    padding-left: 40px;
 }
 
-#Acceuil li{
+#Acceuil {
     display: inline-flex;
+    justify-content: space-evenly;
     background-color: rgb(255, 0, 72);
-    border-radius: .5rem;
+    border-width: 100px;
+    border-radius: 5rem;
+    position: fixed;
+    top: 10px;
+    right: 10px;
 }
 
 .block { display: flex; }
@@ -61,6 +67,7 @@ body {
 
 .titres {
     width: 300px;
+    padding-left: 40px;
 }
 
 .itemu {
@@ -68,12 +75,46 @@ body {
     font-size: large;
 }
 
-li:nth-child(2n) {
+.music li:nth-child(2n) {
     background-color: darkcyan;
     border-radius: 5px;
 }
 
-li:nth-child(2n+1) {
+.music li:nth-child(2n+1) {
     background-color: aqua;
     border-radius: 5px;
 }
+
+h3 {
+    padding-left: 10px;
+}
+
+/* .colonne { 
+    column-count: 1;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background-color: rgb(207, 232, 220);
+    border: 2px solid rgb(79, 185, 227);
+    padding: 10px;
+    margin: 0 0 1em 0;
+}
+*/
+.nav {
+    background: linear-gradient(180deg, #c597e0, rgb(192, 10, 10));
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+}
+
+.page {
+    font-size: xx-large;
+    width: ;
+    border-radius: .5rem;
+}
+
+
